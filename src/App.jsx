@@ -1,7 +1,10 @@
 import { useState } from "react";
+
 import './App.css';
-import NavBar from "./components/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -17,7 +20,8 @@ const App = () => {
     return (
         <div className="App">
             <NavBar />
-            {/* <div
+            <ItemListContainer greeting="Bienvenidos a Compu Gamer"/>
+            <div
             style={{
                 display: "flex",
                 justifyContent: "center",
@@ -29,7 +33,7 @@ const App = () => {
              <button onClick={handleRestar}>-</button>
              <span>{count}</span>
              <button onClick={handleSumar}>+</button>
-            </div> */}
+            </div>
         </div>
     );
 }

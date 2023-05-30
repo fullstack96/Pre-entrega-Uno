@@ -14,7 +14,7 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Productos</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Categorias" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Teclados</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Maus
